@@ -12,4 +12,4 @@ IDAES demonstrates strong engineering execution in optimizing RAG pipelines for 
 ## Strategic Fit & Recommendation
 *   **Ideal Use Case**: This technology is highly valuable for **specialized edge hardware** vendors (e.g., companies building portable OCR scanners or receipt processing devices) where offline privacy and zero-latency are critical.
 *   **Corporate Applicability**: For large-scale enterprises that typically leverage scalable cloud infrastructure for document analysis, the specific value of highly constrained edge processing is less clear.
-*   **Verdict**: The $100k investment is better directed toward product development or trade secrets. The patentability threshold is likely too steep given existing art.
+*   **Verdict**: The methodology aligns closely with existing art and lacks the required non-obviousness threshold.
