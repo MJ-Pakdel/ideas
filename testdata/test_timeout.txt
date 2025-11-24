@@ -1,0 +1,13 @@
+Test Document for Timeout Fix
+
+This document contains some entities that the LLM should extract:
+- John Smith works at Microsoft Corporation
+- The project deadline is December 15, 2024
+- Contact email: john.smith@microsoft.com
+- Location: Seattle, Washington
+
+We're testing if the timeout fix allows the IDAES system to process this document completely and return the analysis results to the web client without timing out.
+
+The previous issue was that the LLM processing completed successfully (taking about 25 seconds), but the IDAES subsystem had a 500ms timeout in the processRequest method, causing it to timeout before the response could be sent back to the web client.
+
+With the fix, the IDAES subsystem now has a 3-minute timeout, which should be sufficient for the LLM processing to complete and the response to be properly coordinated back to the requesting client.

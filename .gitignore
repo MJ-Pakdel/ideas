@@ -1,0 +1,10 @@
+*.code-workspace
+
+go.sum
+go.work.sum
+
+idaes
+main
+fs-vectorize
+coverage*
+idaes-*

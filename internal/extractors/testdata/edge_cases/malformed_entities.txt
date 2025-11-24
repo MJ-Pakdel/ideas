@@ -1,0 +1,92 @@
+This is a document with several edge cases to test robustness:
+
+1. MALFORMED ENTITIES:
+   - Names with unusual characters: José María Gutiérrez-Sánchez
+   - Companies with special symbols: AT&T, Johnson & Johnson, Ben & Jerry's
+   - URLs with edge cases: https://example.com/path?param=value&other=123
+   - Emails with + symbols: john.doe+test@example.com
+   - International phone: +1-555-123-4567, +44 20 7946 0958
+
+2. FORMATTING ISSUES:
+   ALL CAPS COMPANY: MICROSOFT CORPORATION
+   all lowercase person: john smith from stanford university
+   MiXeD cAsE: ThE qUiCk BrOwN fOx
+
+3. AMBIGUOUS ENTITIES:
+   - Apple (could be company or fruit)
+   - Washington (person, state, or city?)
+   - Mercury (planet, element, or company?)
+   - Oracle (company or concept?)
+
+4. OVERLAPPING ENTITIES:
+   New York University in New York, New York
+   Microsoft Office at Microsoft Corporation
+   The University of California, Berkeley campus
+
+5. NUMERIC CHALLENGES:
+   - Large numbers: 1,234,567,890
+   - Scientific notation: 1.23e-05
+   - Percentages: 45.67%
+   - Currency: $1,234.56, €987.65, ¥12,345
+   - Dates in various formats: 2024-10-15, 10/15/2024, October 15th, 2024
+
+6. MULTILINGUAL CONTENT:
+   - Spanish: Universidad Nacional Autónoma de México
+   - French: École Polytechnique Fédérale de Lausanne  
+   - German: Max-Planck-Institut für Informatik
+   - Chinese: 北京大学 (Peking University)
+
+7. SPECIAL CHARACTERS AND UNICODE:
+   - Symbols: ®, ©, ™, §, ¶, †, ‡
+   - Accented characters: café, naïve, résumé
+   - Mathematical symbols: α, β, γ, Δ, ∑, ∫, ∞
+   - Emoji: 🚀 SpaceX launches 🌟
+
+8. NESTED STRUCTURES:
+   The AI Lab at Stanford University (part of the Department of Computer Science) 
+   works with researchers from MIT's CSAIL (Computer Science and Artificial 
+   Intelligence Laboratory).
+
+9. ABBREVIATION CONFLICTS:
+   - AI (Artificial Intelligence vs. Amnesty International)
+   - IBM (International Business Machines vs. Intercontinental Ballistic Missile)
+   - US (United States vs. "us" pronoun)
+
+10. CONTEXTUAL DEPENDENCIES:
+    John works at Apple. He enjoys eating apple pie. The Apple store sells 
+    MacBooks. An apple a day keeps the doctor away.
+
+11. INCOMPLETE OR BROKEN TEXT:
+    Dr. Sarah Chen from Stanf... [text cut off]
+    The company reported $47.2M in reve
+    ...ord University published a paper on...
+
+12. WHITESPACE AND FORMATTING ANOMALIES:
+    Lots     of     spaces     between     words
+    
+    
+    Multiple
+    
+    
+    Line
+    
+    
+    Breaks
+    
+    	Tabs	and	spaces	mixed	together
+
+13. FALSE POSITIVE TRIGGERS:
+    - "I am going to the store" (not "I AM" organization)  
+    - "We will meet at 3:00 PM EST" (EST not a company)
+    - "The document is in PDF format" (PDF not a person)
+
+14. BOUNDARY CASES:
+    - Single character names: "X Corp", "Y Combinator"
+    - Very long names: "The International Federation of Association Football"
+    - Names with numbers: "3M Company", "7-Eleven", "Formula 1"
+
+15. QUOTE AND PUNCTUATION HANDLING:
+    "John Smith" said, "I work at 'Tech Corp' in San Francisco."
+    The paper (authored by Dr. Chen et al.) discusses AI/ML applications.
+
+This document tests entity extraction robustness across various edge cases and challenges.

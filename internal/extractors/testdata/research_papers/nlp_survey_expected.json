@@ -1,0 +1,245 @@
+{
+  "document_type": "research_paper",
+  "expected_entities": [
+    {
+      "type": "PERSON",
+      "text": "Dr. Sarah Chen",
+      "confidence": 0.95,
+      "context": "Authors: Dr. Sarah Chen¹, Prof. Michael Rodriguez², Dr. Amanda Kim¹"
+    },
+    {
+      "type": "PERSON",
+      "text": "Prof. Michael Rodriguez",
+      "confidence": 0.95,
+      "context": "Authors: Dr. Sarah Chen¹, Prof. Michael Rodriguez², Dr. Amanda Kim¹"
+    },
+    {
+      "type": "PERSON",
+      "text": "Dr. Amanda Kim",
+      "confidence": 0.95,
+      "context": "Authors: Dr. Sarah Chen¹, Prof. Michael Rodriguez², Dr. Amanda Kim¹"
+    },
+    {
+      "type": "ORGANIZATION",
+      "text": "Stanford University",
+      "confidence": 0.92,
+      "context": "Department of Computer Science, Stanford University, Stanford, CA 94305"
+    },
+    {
+      "type": "ORGANIZATION",
+      "text": "MIT Computer Science and Artificial Intelligence Laboratory",
+      "confidence": 0.90,
+      "context": "MIT Computer Science and Artificial Intelligence Laboratory, Cambridge, MA 02139"
+    },
+    {
+      "type": "LOCATION",
+      "text": "Stanford, CA 94305",
+      "confidence": 0.88,
+      "context": "Department of Computer Science, Stanford University, Stanford, CA 94305"
+    },
+    {
+      "type": "LOCATION",
+      "text": "Cambridge, MA 02139",
+      "confidence": 0.88,
+      "context": "MIT Computer Science and Artificial Intelligence Laboratory, Cambridge, MA 02139"
+    },
+    {
+      "type": "TECHNOLOGY",
+      "text": "BERT",
+      "confidence": 0.85,
+      "context": "transformer architectures, including BERT, GPT-3, and T5 models"
+    },
+    {
+      "type": "TECHNOLOGY",
+      "text": "GPT-3",
+      "confidence": 0.85,
+      "context": "transformer architectures, including BERT, GPT-3, and T5 models"
+    },
+    {
+      "type": "TECHNOLOGY",
+      "text": "T5 models",
+      "confidence": 0.85,
+      "context": "transformer architectures, including BERT, GPT-3, and T5 models"
+    },
+    {
+      "type": "METRIC",
+      "text": "95.2% accuracy",
+      "confidence": 0.90,
+      "context": "achieving state-of-the-art results with a 95.2% accuracy on the CoLA task"
+    },
+    {
+      "type": "ORGANIZATION",
+      "text": "National Science Foundation",
+      "confidence": 0.90,
+      "context": "funded by the National Science Foundation (NSF) grant"
+    },
+    {
+      "type": "ORGANIZATION",
+      "text": "Google AI Research Initiative",
+      "confidence": 0.88,
+      "context": "Google AI Research Initiative"
+    },
+    {
+      "type": "CONCEPT",
+      "text": "natural language processing",
+      "confidence": 0.80,
+      "context": "deep learning approaches applied to natural language processing (NLP) tasks"
+    },
+    {
+      "type": "CONCEPT",
+      "text": "transformer architecture",
+      "confidence": 0.82,
+      "context": "The transformer architecture has revolutionized the field"
+    },
+    {
+      "type": "CONCEPT",
+      "text": "attention mechanisms",
+      "confidence": 0.78,
+      "context": "since the introduction of attention mechanisms by Vaswani et al."
+    },
+    {
+      "type": "CITATION",
+      "text": "Vaswani et al. (2017)",
+      "confidence": 0.95,
+      "context": "attention mechanisms by Vaswani et al. (2017)"
+    },
+    {
+      "type": "CITATION",
+      "text": "Devlin et al. (2019)",
+      "confidence": 0.95,
+      "context": "models like BERT (Devlin et al., 2019)"
+    },
+    {
+      "type": "CITATION",
+      "text": "Brown et al. (2020)",
+      "confidence": 0.95,
+      "context": "and GPT-3 (Brown et al., 2020)"
+    },
+    {
+      "type": "CITATION",
+      "text": "Chen et al. (2023)",
+      "confidence": 0.95,
+      "context": "Recent work by Chen et al. (2023) demonstrates"
+    },
+    {
+      "type": "TECHNOLOGY",
+      "text": "PyTorch 1.9.0",
+      "confidence": 0.85,
+      "context": "conducted using PyTorch 1.9.0 and Transformers 4.12.0 libraries"
+    },
+    {
+      "type": "TECHNOLOGY",
+      "text": "Transformers 4.12.0",
+      "confidence": 0.85,
+      "context": "PyTorch 1.9.0 and Transformers 4.12.0 libraries"
+    },
+    {
+      "type": "TECHNOLOGY",
+      "text": "NVIDIA A100 GPUs",
+      "confidence": 0.88,
+      "context": "libraries on NVIDIA A100 GPUs"
+    },
+    {
+      "type": "CONCEPT",
+      "text": "GLUE",
+      "confidence": 0.85,
+      "context": "GLUE (General Language Understanding Evaluation)"
+    },
+    {
+      "type": "CONCEPT",
+      "text": "SuperGLUE",
+      "confidence": 0.85,
+      "context": "SuperGLUE (Wang et al., 2019)"
+    },
+    {
+      "type": "CONCEPT",
+      "text": "SQuAD 2.0",
+      "confidence": 0.85,
+      "context": "SQuAD 2.0 (Rajpurkar et al., 2018)"
+    },
+    {
+      "type": "METRIC",
+      "text": "45GB",
+      "confidence": 0.90,
+      "context": "training data consisted of 45GB of text"
+    },
+    {
+      "type": "ORGANIZATION",
+      "text": "Common Crawl",
+      "confidence": 0.82,
+      "context": "45GB of text from Common Crawl, Wikipedia, and BookCorpus"
+    },
+    {
+      "type": "ORGANIZATION",
+      "text": "Wikipedia",
+      "confidence": 0.85,
+      "context": "Common Crawl, Wikipedia, and BookCorpus"
+    },
+    {
+      "type": "TECHNOLOGY",
+      "text": "Weights & Biases",
+      "confidence": 0.85,
+      "context": "optimized using Weights & Biases for experiment tracking"
+    },
+    {
+      "type": "METRIC",
+      "text": "88.7",
+      "confidence": 0.90,
+      "context": "GLUE score: 88.7 (previous SOTA: 87.1)"
+    },
+    {
+      "type": "METRIC",
+      "text": "86.4",
+      "confidence": 0.90,
+      "context": "SuperGLUE score: 86.4"
+    },
+    {
+      "type": "METRIC",
+      "text": "91.3",
+      "confidence": 0.90,
+      "context": "SQuAD 2.0 F1: 91.3"
+    },
+    {
+      "type": "METRIC",
+      "text": "1,247 tokens/second",
+      "confidence": 0.88,
+      "context": "Processing speed: 1,247 tokens/second on A100"
+    },
+    {
+      "type": "ORGANIZATION",
+      "text": "Microsoft",
+      "confidence": 0.85,
+      "context": "Companies like Microsoft, Google, and Amazon"
+    },
+    {
+      "type": "ORGANIZATION",
+      "text": "Google",
+      "confidence": 0.85,
+      "context": "Companies like Microsoft, Google, and Amazon"
+    },
+    {
+      "type": "ORGANIZATION",
+      "text": "Amazon",
+      "confidence": 0.85,
+      "context": "Companies like Microsoft, Google, and Amazon"
+    },
+    {
+      "type": "METRIC",
+      "text": "$2.3 million",
+      "confidence": 0.88,
+      "context": "total compute cost for training our model was approximately $2.3 million"
+    }
+  ],
+  "expected_quality_metrics": {
+    "confidence_score": 0.87,
+    "completeness_score": 0.92,
+    "reliability_score": 0.89
+  },
+  "metadata": {
+    "document_length": 4892,
+    "entity_density": 0.007,
+    "complexity": "high",
+    "language": "english",
+    "domain": "computer_science"
+  }
+}

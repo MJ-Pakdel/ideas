@@ -1,0 +1,7 @@
+Simple Research Paper
+
+This paper discusses machine learning techniques. The methodology is based on the work by Smith and Jones (2023) in their study "Deep Learning Fundamentals" published in AI Journal, volume 15, pages 123-135.
+
+We also reference the findings from Brown et al. (2022) who wrote "Neural Networks in Practice" which appeared in Computer Science Review, vol. 28, pp. 456-478.
+
+Finally, our approach builds on Taylor (2024) and the research described in "Modern AI Applications", Nature AI, 7:234-240.

@@ -1,0 +1,590 @@
+[
+  {
+    "text": "Mom",
+    "label": "PERSON",
+    "confidence": 0.94,
+    "start": 5,
+    "end": 8
+  },
+  {
+    "text": "Dad",
+    "label": "PERSON",
+    "confidence": 0.94,
+    "start": 13,
+    "end": 16
+  },
+  {
+    "text": "San Francisco",
+    "label": "LOCATION",
+    "confidence": 0.97,
+    "start": 193,
+    "end": 206
+  },
+  {
+    "text": "Senior Software Engineer",
+    "label": "MISC",
+    "confidence": 0.89,
+    "start": 280,
+    "end": 305
+  },
+  {
+    "text": "TechnoLogic Systems",
+    "label": "ORGANIZATION",
+    "confidence": 0.92,
+    "start": 309,
+    "end": 328
+  },
+  {
+    "text": "Sarah Chen",
+    "label": "PERSON",
+    "confidence": 0.96,
+    "start": 427,
+    "end": 437
+  },
+  {
+    "text": "AI",
+    "label": "MISC",
+    "confidence": 0.88,
+    "start": 519,
+    "end": 521
+  },
+  {
+    "text": "Mission District",
+    "label": "LOCATION",
+    "confidence": 0.94,
+    "start": 694,
+    "end": 710
+  },
+  {
+    "text": "1247 Valencia Street",
+    "label": "LOCATION",
+    "confidence": 0.95,
+    "start": 804,
+    "end": 824
+  },
+  {
+    "text": "Dolores Park",
+    "label": "LOCATION",
+    "confidence": 0.94,
+    "start": 847,
+    "end": 859
+  },
+  {
+    "text": "La Taqueria",
+    "label": "ORGANIZATION",
+    "confidence": 0.91,
+    "start": 955,
+    "end": 966
+  },
+  {
+    "text": "Emily Rodriguez",
+    "label": "PERSON",
+    "confidence": 0.97,
+    "start": 1127,
+    "end": 1142
+  },
+  {
+    "text": "UCSF Medical Center",
+    "label": "ORGANIZATION",
+    "confidence": 0.95,
+    "start": 1175,
+    "end": 1194
+  },
+  {
+    "text": "Blue Bottle Coffee",
+    "label": "ORGANIZATION",
+    "confidence": 0.92,
+    "start": 1234,
+    "end": 1252
+  },
+  {
+    "text": "March",
+    "label": "DATE",
+    "confidence": 0.95,
+    "start": 1261,
+    "end": 1266
+  },
+  {
+    "text": "Portland, Oregon",
+    "label": "LOCATION",
+    "confidence": 0.96,
+    "start": 1324,
+    "end": 1340
+  },
+  {
+    "text": "David Kim",
+    "label": "PERSON",
+    "confidence": 0.96,
+    "start": 1583,
+    "end": 1592
+  },
+  {
+    "text": "Stanford University",
+    "label": "ORGANIZATION",
+    "confidence": 0.96,
+    "start": 1612,
+    "end": 1631
+  },
+  {
+    "text": "Google",
+    "label": "ORGANIZATION",
+    "confidence": 0.95,
+    "start": 1681,
+    "end": 1687
+  },
+  {
+    "text": "Mountain View",
+    "label": "LOCATION",
+    "confidence": 0.94,
+    "start": 1691,
+    "end": 1704
+  },
+  {
+    "text": "Palo Alto",
+    "label": "LOCATION",
+    "confidence": 0.95,
+    "start": 1759,
+    "end": 1768
+  },
+  {
+    "text": "Pho Saigon",
+    "label": "ORGANIZATION",
+    "confidence": 0.91,
+    "start": 1776,
+    "end": 1786
+  },
+  {
+    "text": "last Tuesday",
+    "label": "DATE",
+    "confidence": 0.94,
+    "start": 1787,
+    "end": 1799
+  },
+  {
+    "text": "San Francisco Art Institute",
+    "label": "ORGANIZATION",
+    "confidence": 0.95,
+    "start": 1894,
+    "end": 1921
+  },
+  {
+    "text": "Professor Martinez",
+    "label": "PERSON",
+    "confidence": 0.95,
+    "start": 1951,
+    "end": 1969
+  },
+  {
+    "text": "Canon EOS R5",
+    "label": "MISC",
+    "confidence": 0.93,
+    "start": 2073,
+    "end": 2085
+  },
+  {
+    "text": "B&H Photo Video",
+    "label": "ORGANIZATION",
+    "confidence": 0.92,
+    "start": 2115,
+    "end": 2130
+  },
+  {
+    "text": "$3,899",
+    "label": "MONEY",
+    "confidence": 0.96,
+    "start": 2135,
+    "end": 2141
+  },
+  {
+    "text": "Dr. Angela Foster",
+    "label": "PERSON",
+    "confidence": 0.96,
+    "start": 2369,
+    "end": 2386
+  },
+  {
+    "text": "Kaiser Permanente",
+    "label": "ORGANIZATION",
+    "confidence": 0.94,
+    "start": 2390,
+    "end": 2407
+  },
+  {
+    "text": "last week",
+    "label": "DATE",
+    "confidence": 0.93,
+    "start": 2408,
+    "end": 2417
+  },
+  {
+    "text": "Crissy Field",
+    "label": "LOCATION",
+    "confidence": 0.94,
+    "start": 2517,
+    "end": 2529
+  },
+  {
+    "text": "Equinox",
+    "label": "ORGANIZATION",
+    "confidence": 0.91,
+    "start": 2600,
+    "end": 2607
+  },
+  {
+    "text": "California Street",
+    "label": "LOCATION",
+    "confidence": 0.94,
+    "start": 2616,
+    "end": 2633
+  },
+  {
+    "text": "Emily",
+    "label": "PERSON",
+    "confidence": 0.96,
+    "start": 2701,
+    "end": 2706
+  },
+  {
+    "text": "Japan",
+    "label": "LOCATION",
+    "confidence": 0.96,
+    "start": 2738,
+    "end": 2743
+  },
+  {
+    "text": "November",
+    "label": "DATE",
+    "confidence": 0.95,
+    "start": 2747,
+    "end": 2755
+  },
+  {
+    "text": "Tokyo",
+    "label": "LOCATION",
+    "confidence": 0.96,
+    "start": 2789,
+    "end": 2794
+  },
+  {
+    "text": "Kyoto",
+    "label": "LOCATION",
+    "confidence": 0.96,
+    "start": 2829,
+    "end": 2834
+  },
+  {
+    "text": "United Airlines",
+    "label": "ORGANIZATION",
+    "confidence": 0.94,
+    "start": 2872,
+    "end": 2887
+  },
+  {
+    "text": "$1,245",
+    "label": "MONEY",
+    "confidence": 0.96,
+    "start": 2892,
+    "end": 2898
+  },
+  {
+    "text": "Hotel New Otani Tokyo",
+    "label": "ORGANIZATION",
+    "confidence": 0.93,
+    "start": 2928,
+    "end": 2949
+  },
+  {
+    "text": "Senso-ji Temple",
+    "label": "LOCATION",
+    "confidence": 0.94,
+    "start": 3010,
+    "end": 3025
+  },
+  {
+    "text": "$2,500",
+    "label": "MONEY",
+    "confidence": 0.96,
+    "start": 3169,
+    "end": 3175
+  },
+  {
+    "text": "401(k)",
+    "label": "MISC",
+    "confidence": 0.91,
+    "start": 3197,
+    "end": 3203
+  },
+  {
+    "text": "Fidelity Investments",
+    "label": "ORGANIZATION",
+    "confidence": 0.94,
+    "start": 3207,
+    "end": 3227
+  },
+  {
+    "text": "Marcus by Goldman Sachs",
+    "label": "ORGANIZATION",
+    "confidence": 0.94,
+    "start": 3292,
+    "end": 3315
+  },
+  {
+    "text": "4.25%",
+    "label": "PERCENT",
+    "confidence": 0.95,
+    "start": 3332,
+    "end": 3337
+  },
+  {
+    "text": "APY",
+    "label": "MISC",
+    "confidence": 0.88,
+    "start": 3338,
+    "end": 3341
+  },
+  {
+    "text": "Dad",
+    "label": "PERSON",
+    "confidence": 0.94,
+    "start": 3343,
+    "end": 3346
+  },
+  {
+    "text": "Cousin Jennifer",
+    "label": "PERSON",
+    "confidence": 0.95,
+    "start": 3547,
+    "end": 3562
+  },
+  {
+    "text": "Chicago",
+    "label": "LOCATION",
+    "confidence": 0.95,
+    "start": 3568,
+    "end": 3575
+  },
+  {
+    "text": "last week",
+    "label": "DATE",
+    "confidence": 0.93,
+    "start": 3585,
+    "end": 3594
+  },
+  {
+    "text": "Uncle Robert",
+    "label": "PERSON",
+    "confidence": 0.95,
+    "start": 3616,
+    "end": 3628
+  },
+  {
+    "text": "Aunt Susan",
+    "label": "PERSON",
+    "confidence": 0.95,
+    "start": 3692,
+    "end": 3702
+  },
+  {
+    "text": "Milwaukee",
+    "label": "LOCATION",
+    "confidence": 0.95,
+    "start": 3706,
+    "end": 3715
+  },
+  {
+    "text": "Christmas",
+    "label": "DATE",
+    "confidence": 0.94,
+    "start": 3767,
+    "end": 3776
+  },
+  {
+    "text": "Honda Civic",
+    "label": "MISC",
+    "confidence": 0.92,
+    "start": 3855,
+    "end": 3866
+  },
+  {
+    "text": "Tesla Model 3",
+    "label": "MISC",
+    "confidence": 0.93,
+    "start": 3874,
+    "end": 3887
+  },
+  {
+    "text": "Tesla",
+    "label": "ORGANIZATION",
+    "confidence": 0.94,
+    "start": 3917,
+    "end": 3922
+  },
+  {
+    "text": "Fremont",
+    "label": "LOCATION",
+    "confidence": 0.94,
+    "start": 3937,
+    "end": 3944
+  },
+  {
+    "text": "$47,990",
+    "label": "MONEY",
+    "confidence": 0.96,
+    "start": 3949,
+    "end": 3956
+  },
+  {
+    "text": "State Farm",
+    "label": "ORGANIZATION",
+    "confidence": 0.93,
+    "start": 3979,
+    "end": 3989
+  },
+  {
+    "text": "$180",
+    "label": "MONEY",
+    "confidence": 0.95,
+    "start": 3999,
+    "end": 4003
+  },
+  {
+    "text": "San Francisco Food Bank",
+    "label": "ORGANIZATION",
+    "confidence": 0.94,
+    "start": 4165,
+    "end": 4188
+  },
+  {
+    "text": "Mark Thompson",
+    "label": "PERSON",
+    "confidence": 0.96,
+    "start": 4310,
+    "end": 4323
+  },
+  {
+    "text": "Ritual Coffee Roasters",
+    "label": "ORGANIZATION",
+    "confidence": 0.92,
+    "start": 4411,
+    "end": 4433
+  },
+  {
+    "text": "Apple",
+    "label": "ORGANIZATION",
+    "confidence": 0.94,
+    "start": 4509,
+    "end": 4514
+  },
+  {
+    "text": "iPhone 15 Pro",
+    "label": "MISC",
+    "confidence": 0.93,
+    "start": 4534,
+    "end": 4547
+  },
+  {
+    "text": "iPhone 13",
+    "label": "MISC",
+    "confidence": 0.92,
+    "start": 4590,
+    "end": 4599
+  },
+  {
+    "text": "Amazon",
+    "label": "ORGANIZATION",
+    "confidence": 0.94,
+    "start": 4746,
+    "end": 4752
+  },
+  {
+    "text": "$999",
+    "label": "MONEY",
+    "confidence": 0.95,
+    "start": 4767,
+    "end": 4771
+  },
+  {
+    "text": "Black Friday",
+    "label": "DATE",
+    "confidence": 0.94,
+    "start": 4792,
+    "end": 4804
+  },
+  {
+    "text": "Mom",
+    "label": "PERSON",
+    "confidence": 0.94,
+    "start": 4833,
+    "end": 4836
+  },
+  {
+    "text": "Salt, Fat, Acid, Heat",
+    "label": "MISC",
+    "confidence": 0.91,
+    "start": 5008,
+    "end": 5029
+  },
+  {
+    "text": "Samin Nosrat",
+    "label": "PERSON",
+    "confidence": 0.96,
+    "start": 5034,
+    "end": 5046
+  },
+  {
+    "text": "last Sunday",
+    "label": "DATE",
+    "confidence": 0.94,
+    "start": 5100,
+    "end": 5111
+  },
+  {
+    "text": "Emily",
+    "label": "PERSON",
+    "confidence": 0.96,
+    "start": 5159,
+    "end": 5164
+  },
+  {
+    "text": "Denver",
+    "label": "LOCATION",
+    "confidence": 0.95,
+    "start": 5257,
+    "end": 5263
+  },
+  {
+    "text": "Dad",
+    "label": "PERSON",
+    "confidence": 0.94,
+    "start": 5271,
+    "end": 5274
+  },
+  {
+    "text": "Mom",
+    "label": "PERSON",
+    "confidence": 0.94,
+    "start": 5390,
+    "end": 5393
+  },
+  {
+    "text": "Michael",
+    "label": "PERSON",
+    "confidence": 0.96,
+    "start": 5661,
+    "end": 5668
+  },
+  {
+    "text": "Emily",
+    "label": "PERSON",
+    "confidence": 0.96,
+    "start": 5675,
+    "end": 5680
+  },
+  {
+    "text": "Thanksgiving",
+    "label": "DATE",
+    "confidence": 0.94,
+    "start": 5770,
+    "end": 5782
+  }
+]
